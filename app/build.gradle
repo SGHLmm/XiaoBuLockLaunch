@@ -1,0 +1,20 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.xiaobulocklaunch'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.xiaobulocklaunch'
+        minSdk 26
+        targetSdk 28
+        versionCode 1
+        versionName '1.0.0'
+    }
+}
+
+dependencies {
+    compileOnly 'de.robv.android.xposed:api:82'
+}
